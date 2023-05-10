@@ -1,25 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-05-10T03:29:43.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="v8jVYAnTO8BkljmKB9EA" version="21.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-10T03:41:11.064Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="YXBlFfYVq55J9xWSTGOG" version="21.1.5" type="github">
   <diagram name="第 1 页" id="vleGpc8b5PZp7X-sLbFv">
-    <mxGraphModel dx="1825" dy="579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2236" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0OiVM-NiuBbbaSL5GV2N-2" value="" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="414" y="190" width="386" height="430" as="geometry" />
-        </mxCell>
         <mxCell id="0OiVM-NiuBbbaSL5GV2N-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0OiVM-NiuBbbaSL5GV2N-3" target="0OiVM-NiuBbbaSL5GV2N-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0OiVM-NiuBbbaSL5GV2N-3" value="请求&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;api/alarmInfo/getThresholdFromConfig" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-20" y="190" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="0OiVM-NiuBbbaSL5GV2N-4" value="每分钟获取一次" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="537" y="190" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="0OiVM-NiuBbbaSL5GV2N-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0OiVM-NiuBbbaSL5GV2N-5" target="0OiVM-NiuBbbaSL5GV2N-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0OiVM-NiuBbbaSL5GV2N-5" value="读取config.yml" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0OiVM-NiuBbbaSL5GV2N-5" value="读取config.yml&lt;br&gt;管理平台地址 端口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-20" y="270" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0OiVM-NiuBbbaSL5GV2N-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0OiVM-NiuBbbaSL5GV2N-7" target="0OiVM-NiuBbbaSL5GV2N-9">
@@ -65,7 +59,7 @@
           <mxGeometry x="-20" y="340" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0OiVM-NiuBbbaSL5GV2N-11" value="&lt;div&gt;1、新用户购买 WAF，提醒购买时刻、购买时长、购买版本信息；&lt;/div&gt;&lt;div&gt;2、用户退订 WAF，提供退订时刻、退订版本信息；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.&lt;span style=&quot;background-color: initial;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;当前总开通租户数；&lt;/span&gt;&lt;/div&gt;&lt;div&gt;2.&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;冻结租户数；&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="430" width="210" height="120" as="geometry" />
+          <mxGeometry x="-394" y="430" width="210" height="120" as="geometry" />
         </mxCell>
         <mxCell id="0OiVM-NiuBbbaSL5GV2N-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0OiVM-NiuBbbaSL5GV2N-12" target="0OiVM-NiuBbbaSL5GV2N-15">
           <mxGeometry relative="1" as="geometry" />
@@ -178,10 +172,25 @@
           <mxGeometry x="-105" y="893.5" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0OiVM-NiuBbbaSL5GV2N-22" value="&lt;div&gt;1、用户新接入域名，提醒该事件即可;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;用户移除域名，提醒该事件即可。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.	当前总接入域名。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-365" y="762" width="215" height="84" as="geometry" />
+          <mxGeometry x="-398" y="762" width="215" height="84" as="geometry" />
         </mxCell>
         <mxCell id="0OiVM-NiuBbbaSL5GV2N-39" value="一次查询结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-30" y="1000" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0OiVM-NiuBbbaSL5GV2N-52" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="473.58000000000004" as="sourcePoint" />
+            <mxPoint x="-180" y="473.58000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0OiVM-NiuBbbaSL5GV2N-53" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-134" y="803.58" as="sourcePoint" />
+            <mxPoint x="-184" y="803.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0OiVM-NiuBbbaSL5GV2N-55" value="&lt;h2&gt;每分钟一个轮询&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="210" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
